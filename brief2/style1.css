@@ -1,12 +1,13 @@
-header{
+header {
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 20px;
     box-sizing: border-box;
-   display: flex;
+    display: flex;
 }
-header img{
+
+header img {
     width: 150px;
     height: 90px;
     border-top-left-radius: 6px;
@@ -14,75 +15,109 @@ header img{
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
 }
-header nav ul  {
- display: flex;
- list-style: none;
 
-
+header nav ul {
+    display: flex;
+    list-style: none;
 }
-header nav{
-    margin-left:10px;
+
+header nav {
+    margin-left: 10px;
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
-header nav ul li{
+header nav ul li {
     margin-left: 30px;
 }
-header nav ul  li a{
+
+header nav ul li a {
     text-decoration: none;
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    
 }
-header nav ul  li a:hover{
- background-color: rgba(255, 5, 5, 0.712);
-}
-header nav ul  li:nth-child(3){
-  
-    text-decoration: underline;
-   
-  }
-  .breadcrumbs{
 
+header nav ul li a:hover {
+    background-color: rgba(255, 5, 5, 0.712);
+}
+
+header nav ul li:nth-child(3) {
+    text-decoration: underline;
+}
+
+.breadcrumbs {
     margin: 10px 20px 10px 20px;
-  }
-.breadcrumbs ol li{
+}
+
+.breadcrumbs ol li {
     display: flex;
     list-style: none;
 }
-.breadcrumbs ol li a{
+
+.breadcrumbs ol li a {
     text-decoration: none;
     color: black;
     font-family: 'Courier New', Courier, monospace;
-   
 }
-.breadcrumbs ol{
 
+.breadcrumbs ol {
     display: flex;
     background-color: rgb(234, 226, 226);
 }
+
 .breadcrumbs ol li+li {
-margin-left: 4px;
+    margin-left: 4px;
 }
-.breadcrumbs ol li:not(:last-of-type)::after{
+
+.breadcrumbs ol li:not(:last-of-type)::after {
     content: '/';
     margin-left: 5px;
 }
-.breadcrumbs ol li:nth-child(2){
+
+.breadcrumbs ol li:nth-child(2) {
     font-weight: bold;
 }
-.breadcrumbs ol li:nth-child(2) a{
-   text-decoration: underline;
+
+.breadcrumbs ol li:nth-child(2) a {
+    text-decoration: underline;
 }
 
-.header-paragraph{
-    margin: 10px 20px 10px 20px ;
+.header-paragraph {
+    margin: 10px 20px 10px 20px;
 }
-footer{
+
+footer {
     text-align: center;
     color: black;
     background-color: aliceblue;
     margin: 100px 20px 10px 20px;
+}
+
+.sections {
+    display: flex;
+    margin-left: 10px;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+    border: 1px solid black;
+    margin-right: 10px;
+    padding: 15px 15px 15px 15px;
+}
+
+.sections section img {
+    width: 250px;
+    height: 150px;
+    max-width: 100%;
+}
+
+.sections p {
+    color: gray;
+}
+
+.sections a {
+    color: rgb(19, 179, 46);
 }
